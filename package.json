@@ -1,0 +1,19 @@
+{
+  "name": "ykserver",
+  "version": "0.0.1",
+  "description": "youkong RESTful api server",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [
+    "ykserver"
+  ],
+  "author": "zjc",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.2.0",
+    "koa-router": "^7.2.0",
+    "koa2-cors": "^2.0.3"
+  }
+}
